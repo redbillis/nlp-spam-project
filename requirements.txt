@@ -1,6 +1,8 @@
-pandas
+
+nltk
 matplotlib
 seaborn
 scikit-learn
 openpyxl
 jupyter
+nltk
