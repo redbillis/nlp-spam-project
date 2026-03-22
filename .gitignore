@@ -1,0 +1,96 @@
+# Reusable .gitignore for Python / NLP / ML projects
+# Edit sections below as needed for each project.
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv*/
+*.venv/
+__pypackages__/
+
+# Environment files
+.python-version
+.env
+.env.*
+secrets.yml
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests / coverage
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type check / caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebooks outputs (optional)
+# Uncomment to ignore common notebook output folders
+# .ipynb_checkpoints/
+
+# Data (datasets)
+# By default the data/ folder is tracked. If you want to ignore datasets
+# (recommended for large or sensitive files), uncomment one of the lines below.
+# Ignore entire data directory:
+# data/
+# Ignore only CSV files in data:
+# data/*.csv
+# Ignore specific subfolders:
+# data/raw/
+# data/processed/
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs and local files
+*.log
+reports/
+tmp/
+temp/
+*.tmp
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Python tool environments
+.tox/
+.nox/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.swp
+*~
+
+# If you already committed files you now want ignored, remove them from the
+# index (won't delete the files) with:
+#   git rm --cached <path>
