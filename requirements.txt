@@ -3,6 +3,7 @@ nltk
 matplotlib
 seaborn
 scikit-learn
+pandas
 openpyxl
 jupyter
 nltk
